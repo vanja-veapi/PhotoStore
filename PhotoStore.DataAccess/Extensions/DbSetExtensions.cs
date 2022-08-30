@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AspNedelja3Vezbe.DataAccess.Extensions
+namespace PhotoStore.DataAccess.Extensions
 {
     public static class DbSetExtensions
     {
