@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStore.DataAccess", "Ph
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStore.Api", "PhotoStore.Api\PhotoStore.Api.csproj", "{3B346BEE-3347-424E-ACE5-07C6C7DBCE44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStore.Application", "PhotoStore.Application\PhotoStore.Application.csproj", "{EF19E542-281C-450E-9575-24C37AEC79CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStore.Application", "PhotoStore.Application\PhotoStore.Application.csproj", "{EF19E542-281C-450E-9575-24C37AEC79CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStore.Implementation", "PhotoStore.Implementation\PhotoStore.Implementation.csproj", "{260F4FD5-738E-418E-8448-D525967C674D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EF19E542-281C-450E-9575-24C37AEC79CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF19E542-281C-450E-9575-24C37AEC79CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF19E542-281C-450E-9575-24C37AEC79CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260F4FD5-738E-418E-8448-D525967C674D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260F4FD5-738E-418E-8448-D525967C674D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260F4FD5-738E-418E-8448-D525967C674D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260F4FD5-738E-418E-8448-D525967C674D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
