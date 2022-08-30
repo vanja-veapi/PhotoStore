@@ -207,8 +207,21 @@ namespace PhotoStore.Api.Controllers
 
         // DELETE api/<UsersController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var context = new PhotoContext();
+
+            var user = context.Users.FirstOrDefault(x => x.Id == id);
+
+            if(user == null)
+            {
+                return NotFound();
+            }
+
+            context.Users.Remove(user);
+            context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
